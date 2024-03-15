@@ -220,11 +220,20 @@ for col in data.columns:
 
 <p><b>loop across data columns starting from column 4 up to column 6 of the end, and rename it by remove first 5 character
 </b></p>
+<p>for item in sequence:
+    <br># Code block to be executed for each item
+</p>
 
 ```python
 for col in data.columns[4:-6]:
     data.rename(columns={col: col[5:]}, inplace=True)
 ```
+
+# Chart
+
+![image](https://github.com/kridsadee/P1_Data_Cleansing/assets/124231320/4626932f-6383-4fcd-bc81-f4f4cb30ce85)
+
+![image](https://github.com/kridsadee/P1_Data_Cleansing/assets/124231320/fa7e064a-326e-4b3f-90d9-918e0390d1e3)
 
 
 

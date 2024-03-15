@@ -111,7 +111,7 @@ Maybe     4.471545
     
 <li><b>dropna:</b> If set to <b>True</b>, it excludes NA/null values from the result.</li>
 
- **`print(data['column_name'].value_counts(ascending=False)`**
+ **`print(data['column_name'].value_counts(dropna=True)`**
  
 <li><b>bins:</b> This parameter is used to specify the number of equal-width bins to divide the range of values into. It's useful for binning continuous data into discrete intervals. <b>precision=0</b> control the number of decimal places</li>
 
@@ -210,6 +210,7 @@ for country in val_countries:
 
 <p><b>loop across data columns started with Q6 and fill in missing value by 'Unknown'
 </b></p>
+
 
 ```python
 for col in data.columns:
